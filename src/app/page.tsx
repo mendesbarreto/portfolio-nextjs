@@ -1,6 +1,6 @@
 import { Header } from "@/components/header";
+import { HomeSummary } from "@/components/home-summary";
 import Head from "next/head";
-import Image from "next/image";
 
 export default function Home() {
 	return (
@@ -11,17 +11,7 @@ export default function Home() {
 			</Head>
 
 			<Header />
-
-			<main>
-				<Image
-					src="/icons/ic_logo.svg"
-					alt="Icon"
-					width={50}
-					height={50}
-					layout="fixed"
-				/>
-				<h2> Main Content 2</h2>
-			</main>
+			<HomeSummary className="max-w-1064 mx-auto pt-16" />
 		</div>
 	);
 }

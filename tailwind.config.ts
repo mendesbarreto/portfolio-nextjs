@@ -20,14 +20,14 @@ export default {
 			},
 
 			colors: {
-				background: "#282C33",
-				primary: "#E06B74",
-				secondary: "#98C379",
-				accent: "#E5C07A",
-				info: "#62AEEF",
-				warning: "#C778DD",
-				success: "#55B6C2",
-				neutral: "#ABB2BF",
+				background: "#282C33", // dark gray
+				mPurple: "#C778DD", // purple
+				mRed: "#E06B74", // red
+				mGreen: "#98C379", // green
+				mYellow: "#E5C07A", // yellow
+				mBlue: "#62AEEF", // blue
+				mTeal: "#55B6C2", // teal
+				mGray: "#ABB2BF", // gray
 			},
 		},
 	},
