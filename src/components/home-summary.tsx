@@ -17,7 +17,7 @@ export function HomeSummary({ className }: HomeSummaryProps) {
 	return (
 		<div className={`flex justify-between items-center ${className}`}>
 			<div id="home-summary" className="w-1/2 items-center">
-				<div className="flex-col font-fira text-2xl font-bold text-white-600">
+				<div className="flex-col font-fira-code text-2xl font-bold text-white-600">
 					<div>
 						<span>Douglas is a </span>
 						<span className="text-mPurple">Software Eng. Manager </span>
@@ -25,7 +25,7 @@ export function HomeSummary({ className }: HomeSummaryProps) {
 						<span className="text-mPurple">Software Developer</span>
 					</div>
 				</div>
-				<div className="font-fira text-mGray pt-8">
+				<div className="font-fira-code text-mGray pt-8">
 					As a polyglot technologist, he is comfortable working with various
 					development stacks and programming languages. He also takes pleasure
 					in mentoring others and helping them navigate their career paths.

@@ -14,12 +14,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
 	children,
-}: Readonly<{
+}: {
 	children: React.ReactNode;
-}>) {
+}) {
 	return (
 		<html lang="en">
-			<body className={`${firaCode.variable} antialiased`}>{children}</body>
+			<body className={`${firaCode.variable} antialiased font-fira-code`}>
+				{children}
+			</body>
 		</html>
 	);
 }

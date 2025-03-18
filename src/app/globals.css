@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-	--font-fira: var(--font-fira-code), monospace;
+	--font-fira-code: var(--font-fira-code), monospace;
 
 	--container-1064: 1064px;
 
@@ -37,6 +37,13 @@
 }
 
 :root {
+	--font-fira-code: "Fira Code", monospace;
+}
+
+body {
+	color: var(--foreground);
+	background: var(--background);
+	font-family: var(--font-fira-code);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -44,10 +51,4 @@
 		--background: #0a0a0a;
 		--foreground: #ededed;
 	}
-}
-
-body {
-	color: var(--foreground);
-	background: var(--background);
-	font-family: Arial, Helvetica, sans-serif;
 }
