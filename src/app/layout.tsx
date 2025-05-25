@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Fira_Code } from "next/font/google";
 import "./globals.css";
 import "./fontAwesomeConfig";
-import { OverlayBox } from "@/components/overlay-box";
+import { OverlayBox } from "@/components/common/overlay-box";
 
 const firaCode = Fira_Code({
 	subsets: ["latin"],

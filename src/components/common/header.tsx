@@ -18,13 +18,13 @@ export function Header() {
 				</div>
 				<ul className="flex space-x-4 font-fira-code accent-teal-600">
 					<li>
-						<Link href="/about">
+						<Link href="/home">
 							<span className="text-purple-600">#</span>
 							<span className="text-white">home</span>
 						</Link>
 					</li>
 					<li>
-						<Link href="/about">
+						<Link href="/works">
 							<span className="text-purple-600">#</span>
 							<span className="text-white">works</span>
 						</Link>
@@ -36,7 +36,7 @@ export function Header() {
 						</Link>
 					</li>
 					<li>
-						<Link href="/about">
+						<Link href="/contacts">
 							<span className="text-purple-600">#</span>
 							<span className="text-white">contacts</span>
 						</Link>

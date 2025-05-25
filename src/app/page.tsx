@@ -1,5 +1,6 @@
-import { Header } from "@/components/header";
-import { HomeSummary } from "@/components/home-summary";
+import { Header } from "@/components/common/header";
+import { HomeSummary } from "@/components/home/home-summary";
+import { QuoteBox } from "@/components/home/quote";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
 
 			<Header />
 			<HomeSummary className="max-w-1064 mx-auto pt-16" />
+			<QuoteBox></QuoteBox>
 		</div>
 	);
 }
