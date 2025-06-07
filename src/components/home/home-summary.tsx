@@ -4,7 +4,6 @@ import React from "react";
 
 import { TitleButton } from "../common/base-button";
 import Image from "next/image";
-import { QuoteBox } from "./quote";
 
 interface HomeSummaryProps {
 	className?: string;

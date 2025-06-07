@@ -15,8 +15,13 @@ export default {
 				"1064": "1064px",
 				"61": "61px",
 			},
+			backgroundColor: {
+				primary: "#282C33",
+				secondary: "#2C3036",
+			},
 			colors: {
 				background: "#282C33",
+				backgroundLight: "#2C3036",
 				mPurple: "#C778DD",
 				mRed: "#E06B74",
 				mGreen: "#98C379",
