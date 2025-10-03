@@ -15,9 +15,9 @@ export function HomeSummary({ className }: HomeSummaryProps) {
 	};
 
 	return (
-		<div className={`flex justify-between items-center ${className}`}>
-			<div id="home-summary" className="w-1/2 items-center">
-				<div className="flex-col font-fira-code text-2xl font-bold text-white-600">
+		<div className={`flex flex-col md:flex-row justify-between items-center gap-8 px-4 md:px-0 ${className}`}>
+			<div id="home-summary" className="w-full md:w-1/2 items-center">
+				<div className="flex-col font-fira-code text-xl md:text-2xl font-bold text-white-600">
 					<div>
 						<span>Douglas is a </span>
 						<span className="text-mPurple">Software Eng. Manager </span>
@@ -35,7 +35,7 @@ export function HomeSummary({ className }: HomeSummaryProps) {
 				</div>
 			</div>
 
-			<div className="flex-initial w-[468px]">
+			<div className="flex-initial w-full md:w-[468px] max-w-[468px]">
 				<Image
 					src="/img-profile.svg"
 					alt="Icon"

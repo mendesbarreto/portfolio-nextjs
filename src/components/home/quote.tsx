@@ -7,8 +7,8 @@ interface QuoteBoxProps {
 export function QuoteBox({ className }: QuoteBoxProps) {
 	return (
 		<div className={className}>
-			<div className="flex flex-col items-end">
-				<div className="p-8 relative inline-flex bg-background border-white border font-fira-code font-24 index z-20">
+			<div className="flex flex-col items-end px-4 md:px-0">
+				<div className="p-4 md:p-8 relative inline-flex bg-background border-white border font-fira-code text-sm md:text-base z-20 max-w-full">
 					The only way to learn a new programming language is by writing
 					programs in it.
 					<Image
@@ -26,7 +26,7 @@ export function QuoteBox({ className }: QuoteBoxProps) {
 						width={25}
 					/>
 				</div>
-				<div className="px-6 py-4 relative inline-flex bg-background border-white border-l border-b border-r font-fira-code font-24 z-10">
+				<div className="px-4 md:px-6 py-3 md:py-4 relative inline-flex bg-background border-white border-l border-b border-r font-fira-code text-sm md:text-base z-10">
 					YESSS
 				</div>
 			</div>

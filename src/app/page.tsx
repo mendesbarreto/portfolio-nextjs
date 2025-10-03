@@ -7,7 +7,7 @@ import Head from "next/head";
 export default function Home() {
   return (
     <div className="bg-primary min-h-screen">
-      <div className="bg-background max-w-1064 mx-auto pt-16">
+      <div className="bg-background max-w-1064 mx-auto pt-8 md:pt-16 px-4 md:px-0">
         <Head>
           <title>Douglas Mendes</title>
           <meta name="description" content="My personal CV and Portifolio" />
@@ -15,8 +15,8 @@ export default function Home() {
 
         <Header />
         <HomeSummary />
-        <QuoteBox className="flex justify-center p-8"></QuoteBox>
-        <ProjectList className="relative"></ProjectList>
+        <QuoteBox className="flex justify-center p-4 md:p-8"></QuoteBox>
+        <ProjectList className="relative mb-16"></ProjectList>
       </div>
     </div>
   );
