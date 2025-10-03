@@ -8,7 +8,9 @@
 	--spacing-61: 61px;
 	--spacing-1064: 1064px;
 
+	/* Regular colors */
 	--color-background: #282c33;
+	--color-background-light: #2c3036;
 	--color-m-purple: #c778dd;
 	--color-m-red: #e06b74;
 	--color-m-green: #98c379;
@@ -16,6 +18,10 @@
 	--color-m-blue: #62aeef;
 	--color-m-teal: #55b6c2;
 	--color-m-gray: #abb2bf;
+
+	/* Background colors (for bg-* utilities) */
+	--color-primary: #282c33;
+	--color-secondary: #2c3036;
 }
 
 /*
