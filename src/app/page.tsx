@@ -1,5 +1,6 @@
 import { Header } from "@/components/common/header";
 import { HomeSummary } from "@/components/home/home-summary";
+import { Highlights } from "@/components/home/highlights";
 import { ProjectList } from "@/components/projects/project-list";
 import { QuoteBox } from "@/components/home/quote";
 import Head from "next/head";
@@ -15,6 +16,7 @@ export default function Home() {
 
         <Header />
         <HomeSummary />
+        <Highlights />
         <QuoteBox className="flex justify-center p-4 md:p-8"></QuoteBox>
         <ProjectList className="relative mb-16"></ProjectList>
       </div>

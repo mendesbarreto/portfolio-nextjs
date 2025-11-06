@@ -11,13 +11,21 @@
 	/* Regular colors */
 	--color-background: #282c33;
 	--color-background-light: #2c3036;
+	--color-backgroundLight: #2c3036;
 	--color-m-purple: #c778dd;
+	--color-mPurple: #c778dd;
 	--color-m-red: #e06b74;
+	--color-mRed: #e06b74;
 	--color-m-green: #98c379;
+	--color-mGreen: #98c379;
 	--color-m-yellow: #e5c07a;
+	--color-mYellow: #e5c07a;
 	--color-m-blue: #62aeef;
+	--color-mBlue: #62aeef;
 	--color-m-teal: #55b6c2;
+	--color-mTeal: #55b6c2;
 	--color-m-gray: #abb2bf;
+	--color-mGray: #abb2bf;
 
 	/* Background colors (for bg-* utilities) */
 	--color-primary: #282c33;

@@ -20,17 +20,21 @@ export function HomeSummary({ className }: HomeSummaryProps) {
 				<div className="flex-col font-fira-code text-xl md:text-2xl font-bold text-white-600">
 					<div>
 						<span>Douglas is a </span>
-						<span className="text-mPurple">Software Eng. Manager </span>
-						<span>and a </span>
-						<span className="text-mPurple">Software Developer</span>
+						<span className="text-mPurple">Senior Software Eng. Manager </span>
+						<span>and </span>
+						<span className="text-mPurple">Full-Stack Developer</span>
 					</div>
 				</div>
-				<div className="font-fira-code text-mGray pt-8">
-					As a polyglot technologist, he is comfortable working with various
-					development stacks and programming languages. He also takes pleasure
-					in mentoring others and helping them navigate their career paths.
+				<div className="font-fira-code text-mGray pt-8 leading-relaxed">
+					With <span className="text-mPurple font-semibold">14 years</span> in software engineering, 
+					Douglas leads and mentors high-performing teams that ship quality products. 
+					As a <span className="text-mYellow">polyglot technologist</span>, he's comfortable 
+					working across the full stack with various languages and frameworks.
 				</div>
-				<div className="pt-8">
+				<div className="font-fira-code text-mGray pt-4 leading-relaxed">
+					His focus: practical agile, automation, and building scalable solutions that actually work.
+				</div>
+				<div className="pt-8 flex gap-4">
 					<TitleButton onClick={handleClick} title="contact-me"></TitleButton>
 				</div>
 			</div>

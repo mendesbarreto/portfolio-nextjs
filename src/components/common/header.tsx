@@ -36,26 +36,20 @@ export function Header() {
 				{/* Desktop navigation */}
 				<ul className="hidden md:flex space-x-4 font-fira-code accent-teal-600">
 					<li>
-						<Link href="/home">
-							<span className="text-purple-600">#</span>
+						<Link href="/" className="hover:text-mGray transition-colors">
+							<span className="text-mPurple">#</span>
 							<span className="text-white">home</span>
 						</Link>
 					</li>
 					<li>
-						<Link href="/works">
-							<span className="text-purple-600">#</span>
-							<span className="text-white">works</span>
-						</Link>
-					</li>
-					<li>
-						<Link href="/about">
-							<span className="text-purple-600">#</span>
+						<Link href="/about" className="hover:text-mGray transition-colors">
+							<span className="text-mPurple">#</span>
 							<span className="text-white">about-me</span>
 						</Link>
 					</li>
 					<li>
-						<Link href="/contacts">
-							<span className="text-purple-600">#</span>
+						<Link href="/contacts" className="hover:text-mGray transition-colors">
+							<span className="text-mPurple">#</span>
 							<span className="text-white">contacts</span>
 						</Link>
 					</li>
@@ -67,26 +61,20 @@ export function Header() {
 				<nav className="md:hidden mt-4 pb-4">
 					<ul className="flex flex-col space-y-4 font-fira-code">
 						<li>
-							<Link href="/home" onClick={() => setIsMenuOpen(false)}>
-								<span className="text-purple-600">#</span>
+							<Link href="/" onClick={() => setIsMenuOpen(false)}>
+								<span className="text-mPurple">#</span>
 								<span className="text-white">home</span>
 							</Link>
 						</li>
 						<li>
-							<Link href="/works" onClick={() => setIsMenuOpen(false)}>
-								<span className="text-purple-600">#</span>
-								<span className="text-white">works</span>
-							</Link>
-						</li>
-						<li>
 							<Link href="/about" onClick={() => setIsMenuOpen(false)}>
-								<span className="text-purple-600">#</span>
+								<span className="text-mPurple">#</span>
 								<span className="text-white">about-me</span>
 							</Link>
 						</li>
 						<li>
 							<Link href="/contacts" onClick={() => setIsMenuOpen(false)}>
-								<span className="text-purple-600">#</span>
+								<span className="text-mPurple">#</span>
 								<span className="text-white">contacts</span>
 							</Link>
 						</li>
