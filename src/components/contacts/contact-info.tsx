@@ -82,7 +82,7 @@ export function ContactInfo() {
 
       <div className="mt-12 bg-backgroundLight p-8 rounded-lg border border-mPurple/30">
         <h2 className="text-2xl font-bold text-white mb-4">
-          <span className="text-mPurple">##</span> Let's Connect
+          <span className="text-mPurple">##</span> Let&apos;s Connect
         </h2>
         <p className="text-mGray leading-relaxed mb-4">
           With 14 years of experience in software engineering, I&apos;m passionate about building high-performing teams 
