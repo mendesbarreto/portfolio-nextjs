@@ -28,7 +28,7 @@ export function HomeSummary({ className }: HomeSummaryProps) {
 				<div className="font-fira-code text-mGray pt-8 leading-relaxed">
 					With <span className="text-mPurple font-semibold">14 years</span> in software engineering, 
 					Douglas leads and mentors high-performing teams that ship quality products. 
-					As a <span className="text-mYellow">polyglot technologist</span>, he's comfortable 
+					As a <span className="text-mYellow">polyglot technologist</span>, he&apos;s comfortable 
 					working across the full stack with various languages and frameworks.
 				</div>
 				<div className="font-fira-code text-mGray pt-4 leading-relaxed">
