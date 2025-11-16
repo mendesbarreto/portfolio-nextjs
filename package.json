@@ -23,7 +23,7 @@
 		"@swc/cli": "^0.6.0",
 		"@swc/core": "^1.11.9",
 		"@tailwindcss/postcss": "^4.0.14",
-		"@types/node": "^22",
+		"@types/node": "^24.0.0",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
 		"eslint": "^9",
