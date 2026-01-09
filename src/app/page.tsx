@@ -1,10 +1,9 @@
-import { Header } from "@/components/common/header";
+import { TerminalHeader } from "@/components/common/terminal-header";
 import { HomeSummary } from "@/components/home/home-summary";
 import { Highlights } from "@/components/home/highlights";
 import { ProjectList } from "@/components/projects/project-list";
 import { QuoteBox } from "@/components/home/quote";
 import { TerminalBlock } from "@/components/common/terminal-block";
-import { TypingText } from "@/components/common/typing-text";
 import Head from "next/head";
 
 export default function Home() {
@@ -16,10 +15,7 @@ export default function Home() {
           <meta name="description" content="My personal CV and Portifolio" />
         </Head>
 
-        <Header />
-        <TerminalBlock title="profile" className="mb-8">
-          <TypingText text="Welcome to Douglas Mendes - Senior Software Engineering Manager" />
-        </TerminalBlock>
+        <TerminalHeader />
         <HomeSummary />
         <TerminalBlock title="achievements" className="mb-8">
           <Highlights />
