@@ -18,7 +18,7 @@ export function OverlayBox() {
 			{/* Desktop: Fixed left sidebar */}
 			<div className="hidden md:fixed md:flex top-0 left-17 w-5 h-[33.3333vh] bg-background z-50 flex-col items-center justify-center space-betj">
 				<div key="center-line" className="top-0 h-full justify-center">
-					<div className="w-px h-full bg-m-gray"></div>
+					<div className="w-px h-full bg-mGreen"></div>
 				</div>
 				<div className="mt-[5px] w-full flex flex-col items-center space-y-2">
 					<a
@@ -66,7 +66,7 @@ export function OverlayBox() {
 								href="https://github.com/mendesbarreto"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mPurple/30 rounded-full shadow-lg hover:bg-mPurple/20 transition-colors"
+								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mGreen/30 rounded-full shadow-lg hover:bg-mGreen/20 hover:border-glow transition-colors"
 							>
 								<FontAwesomeIcon icon={faGithub} size="lg" />
 							</a>
@@ -74,7 +74,7 @@ export function OverlayBox() {
 								href="https://www.linkedin.com/in/mendesbarreto/"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mPurple/30 rounded-full shadow-lg hover:bg-mPurple/20 transition-colors"
+								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mGreen/30 rounded-full shadow-lg hover:bg-mGreen/20 hover:border-glow transition-colors"
 							>
 								<FontAwesomeIcon icon={faLinkedin} size="lg" />
 							</a>
@@ -82,7 +82,7 @@ export function OverlayBox() {
 								href="https://x.com/DougTheDev"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mPurple/30 rounded-full shadow-lg hover:bg-mPurple/20 transition-colors"
+								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mGreen/30 rounded-full shadow-lg hover:bg-mGreen/20 hover:border-glow transition-colors"
 							>
 								<FontAwesomeIcon icon={faTwitter} size="lg" />
 							</a>
@@ -90,7 +90,7 @@ export function OverlayBox() {
 								href="https://www.facebook.com/douglasMendesBarreto"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mPurple/30 rounded-full shadow-lg hover:bg-mPurple/20 transition-colors"
+								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mGreen/30 rounded-full shadow-lg hover:bg-mGreen/20 hover:border-glow transition-colors"
 							>
 								<FontAwesomeIcon icon={faFacebook} size="lg" />
 							</a>
@@ -100,7 +100,7 @@ export function OverlayBox() {
 					{/* FAB button */}
 					<button
 						onClick={() => setIsOpen(!isOpen)}
-						className={`flex justify-center items-center w-14 h-14 bg-mPurple rounded-full shadow-lg hover:bg-mPurple/80 transition-all ${
+						className={`flex justify-center items-center w-14 h-14 bg-mGreen rounded-full shadow-lg hover:bg-mGreen/80 hover:border-glow transition-all ${
 							isOpen ? "rotate-45" : ""
 						}`}
 						aria-label="Toggle social links"

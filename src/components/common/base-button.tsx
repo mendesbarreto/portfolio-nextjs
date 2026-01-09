@@ -8,13 +8,13 @@ interface TitleButtonProps {
 	className?: string;
 }
 
-export function TitleButton({ title, onClick, className }: TitleButtonProps) {
-	return (
-		<button
-			onClick={onClick}
-			className={`border border-mPurple bg-background text-white py-2 px-4 ${className}`}
-		>
-			{title}
-		</button>
-	);
-}
+	export function TitleButton({ title, onClick, className }: TitleButtonProps) {
+		return (
+			<button
+				onClick={onClick}
+				className={`border border-mGreen bg-background text-white py-2 px-4 hover:border-glow transition-all ${className}`}
+			>
+				{title}
+			</button>
+		);
+	}

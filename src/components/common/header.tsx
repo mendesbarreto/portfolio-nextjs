@@ -24,32 +24,32 @@ export function Header() {
 
 				{/* Hamburger menu button for mobile */}
 				<button
-					className="md:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1"
+					className="md:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1 hover:border-glow transition-all"
 					onClick={() => setIsMenuOpen(!isMenuOpen)}
 					aria-label="Toggle menu"
 				>
-					<span className={`w-6 h-0.5 bg-white transition-all ${isMenuOpen ? "rotate-45 translate-y-1.5" : ""}`}></span>
-					<span className={`w-6 h-0.5 bg-white transition-all ${isMenuOpen ? "opacity-0" : ""}`}></span>
-					<span className={`w-6 h-0.5 bg-white transition-all ${isMenuOpen ? "-rotate-45 -translate-y-1.5" : ""}`}></span>
+					<span className={`w-6 h-0.5 bg-mGreen transition-all ${isMenuOpen ? "rotate-45 translate-y-1.5" : ""}`}></span>
+					<span className={`w-6 h-0.5 bg-mGreen transition-all ${isMenuOpen ? "opacity-0" : ""}`}></span>
+					<span className={`w-6 h-0.5 bg-mGreen transition-all ${isMenuOpen ? "-rotate-45 -translate-y-1.5" : ""}`}></span>
 				</button>
 
 				{/* Desktop navigation */}
 				<ul className="hidden md:flex space-x-4 font-fira-code accent-teal-600">
 					<li>
 						<Link href="/" className="hover:text-mGray transition-colors">
-							<span className="text-mPurple">#</span>
+							<span className="text-mGreen">#</span>
 							<span className="text-white">home</span>
 						</Link>
 					</li>
 					<li>
 						<Link href="/about" className="hover:text-mGray transition-colors">
-							<span className="text-mPurple">#</span>
+							<span className="text-mGreen">#</span>
 							<span className="text-white">about-me</span>
 						</Link>
 					</li>
 					<li>
 						<Link href="/contacts" className="hover:text-mGray transition-colors">
-							<span className="text-mPurple">#</span>
+							<span className="text-mGreen">#</span>
 							<span className="text-white">contacts</span>
 						</Link>
 					</li>
@@ -62,19 +62,19 @@ export function Header() {
 					<ul className="flex flex-col space-y-4 font-fira-code">
 						<li>
 							<Link href="/" onClick={() => setIsMenuOpen(false)}>
-								<span className="text-mPurple">#</span>
+								<span className="text-mGreen">#</span>
 								<span className="text-white">home</span>
 							</Link>
 						</li>
 						<li>
 							<Link href="/about" onClick={() => setIsMenuOpen(false)}>
-								<span className="text-mPurple">#</span>
+								<span className="text-mGreen">#</span>
 								<span className="text-white">about-me</span>
 							</Link>
 						</li>
 						<li>
 							<Link href="/contacts" onClick={() => setIsMenuOpen(false)}>
-								<span className="text-mPurple">#</span>
+								<span className="text-mGreen">#</span>
 								<span className="text-white">contacts</span>
 							</Link>
 						</li>

@@ -3,6 +3,8 @@ import { HomeSummary } from "@/components/home/home-summary";
 import { Highlights } from "@/components/home/highlights";
 import { ProjectList } from "@/components/projects/project-list";
 import { QuoteBox } from "@/components/home/quote";
+import { TerminalBlock } from "@/components/common/terminal-block";
+import { TypingText } from "@/components/common/typing-text";
 import Head from "next/head";
 
 export default function Home() {
@@ -15,10 +17,17 @@ export default function Home() {
         </Head>
 
         <Header />
+        <TerminalBlock title="profile" className="mb-8">
+          <TypingText text="Welcome to Douglas Mendes - Senior Software Engineering Manager" />
+        </TerminalBlock>
         <HomeSummary />
-        <Highlights />
+        <TerminalBlock title="achievements" className="mb-8">
+          <Highlights />
+        </TerminalBlock>
         <QuoteBox className="flex justify-center p-4 md:p-8"></QuoteBox>
-        <ProjectList className="relative mb-16"></ProjectList>
+        <TerminalBlock title="projects" className="mb-16">
+          <ProjectList className="relative"></ProjectList>
+        </TerminalBlock>
       </div>
     </div>
   );

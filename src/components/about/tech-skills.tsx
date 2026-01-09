@@ -25,17 +25,17 @@ export function TechSkills() {
   return (
     <section className="mb-12 md:mb-16">
       <h2 className="text-2xl font-bold text-white mb-4">
-        <span className="text-mPurple">##</span> Tech Skills
+        <span className="text-mGreen">##</span> Tech Skills
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {skillCategories.map((category, index) => (
-          <div key={index} className="bg-backgroundLight p-6 rounded-lg border border-mGray/20">
-            <h3 className="text-mYellow font-semibold mb-3">{category.title}</h3>
+          <div key={index} className="bg-#003b00 p-6 rounded-lg border border-mGreen/20">
+            <h3 className="text-mGreen font-semibold mb-3">{category.title}</h3>
             <div className="flex flex-wrap gap-2">
               {category.skills.map((skill, skillIndex) => (
-                <span 
-                  key={skillIndex} 
-                  className="bg-background px-3 py-1 rounded text-mGray text-sm border border-mPurple/30 hover:border-mPurple hover:text-white transition-colors"
+                <span
+                  key={skillIndex}
+                  className="bg-background px-3 py-1 rounded text-mGray text-sm border border-mGreen/30 hover:border-mGreen hover:border-glow hover:text-white transition-colors"
                 >
                   {skill}
                 </span>

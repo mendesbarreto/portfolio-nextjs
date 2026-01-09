@@ -8,46 +8,84 @@
 	--spacing-61: 61px;
 	--spacing-1064: 1064px;
 
-	/* Regular colors */
-	--color-background: #282c33;
-	--color-background-light: #2c3036;
-	--color-backgroundLight: #2c3036;
-	--color-m-purple: #c778dd;
-	--color-mPurple: #c778dd;
-	--color-m-red: #e06b74;
-	--color-mRed: #e06b74;
-	--color-m-green: #98c379;
-	--color-mGreen: #98c379;
-	--color-m-yellow: #e5c07a;
-	--color-mYellow: #e5c07a;
-	--color-m-blue: #62aeef;
-	--color-mBlue: #62aeef;
-	--color-m-teal: #55b6c2;
-	--color-mTeal: #55b6c2;
-	--color-m-gray: #abb2bf;
-	--color-mGray: #abb2bf;
+	/* Matrix Theme Colors */
+	--color-background: #000000;
+	--color-background-light: #0a0a0a;
+	--color-backgroundLight: #0a0a0a;
+	--color-m-purple: #00ff41;
+	--color-mPurple: #00ff41;
+	--color-m-red: #4a4a4a;
+	--color-mRed: #4a4a4a;
+	--color-m-green: #008f11;
+	--color-mGreen: #008f11;
+	--color-m-yellow: #39ff14;
+	--color-mYellow: #39ff14;
+	--color-m-blue: #4a4a4a;
+	--color-mBlue: #4a4a4a;
+	--color-m-teal: #006b00;
+	--color-mTeal: #006b00;
+	--color-m-gray: #e0e0e0;
+	--color-mGray: #e0e0e0;
 
 	/* Background colors (for bg-* utilities) */
-	--color-primary: #282c33;
-	--color-secondary: #2c3036;
+	--color-primary: #000000;
+	--color-secondary: #0a0a0a;
 }
 
-/*
-  The default border color has changed to `currentColor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
 @layer base {
 	*,
 	::after,
 	::before,
 	::backdrop,
 	::file-selector-button {
-		border-color: var(--color-gray-200, currentColor);
+		border-color: #00ff41;
 	}
+}
+
+/* Matrix Theme Effects */
+.scanlines {
+	position: relative;
+	overflow: hidden;
+}
+
+.scanlines::before {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: linear-gradient(
+		to bottom,
+		rgba(0, 255, 65, 0) 50%,
+		rgba(0, 0, 0, 0.25) 50%
+	);
+	background-size: 100% 4px;
+	z-index: 2;
+	pointer-events: none;
+}
+
+.matrix-glow {
+	text-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41, 0 0 30px #00ff41;
+}
+
+.border-glow {
+	box-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41, 0 0 30px #00ff41;
+}
+
+@keyframes blink {
+	0%, 50% { opacity: 1; }
+	51%, 100% { opacity: 0; }
+}
+
+.cursor-blink {
+	animation: blink 1s infinite;
+}
+
+@keyframes typing {
+	from { width: 0; }
+	to { width: 100%; }
 }
 
 :root {
