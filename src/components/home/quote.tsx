@@ -8,7 +8,7 @@ export function QuoteBox({ className }: QuoteBoxProps) {
 	return (
 		<div className={className}>
 			<div className="flex flex-col items-end px-4 md:px-0">
-				<div className="p-4 md:p-8 relative inline-flex bg-background border-mGreen border font-fira-code text-sm md:text-base z-20 max-w-full scanlines">
+				<div className="p-4 md:p-8 relative inline-flex bg-background border-mGreen border font-fira-code text-sm md:text-base z-20 max-w-full">
 					The only way to learn a new programming language is by writing
 					programs in it.
 					<Image

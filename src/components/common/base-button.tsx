@@ -12,7 +12,7 @@ interface TitleButtonProps {
 		return (
 		<button
 			onClick={onClick}
-			className={`border border-mTeal bg-backgroundLight text-white py-2 px-4 transition-all hover:bg-mTeal ${className}`}
+			className={`border border-mTeal bg-backgroundLight text-white py-2 px-4 transition-all hover:bg-mTeal/80 ${className}`}
 		>
 			{title}
 		</button>

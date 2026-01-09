@@ -2,161 +2,112 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faGithub,
-	faTwitter,
-	faFacebook,
-	faLinkedin,
+  faGithub,
+  faTwitter,
+  faFacebook,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { faShare } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 export function OverlayBox() {
-	const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-	return (
-		<>
-			{/* Desktop: Fixed left sidebar */}
-			<div className="hidden md:fixed md:flex top-0 left-17 w-5 h-[33.3333vh] bg-background z-50 flex-col items-center justify-center space-betj">
-				<div key="center-line" className="top-0 h-full justify-center">
-					<div className="w-px h-full bg-mBlue"></div>
-				</div>
-				<div className="mt-[5px] w-full flex flex-col items-center space-y-2">
-					<a
-						href="https://github.com/mendesbarreto"
-						target="_blank"
-						rel="noopener noreferrer"
-						className="flex justify-center items-center w-6 h-6 bg-transparent"
-					>
-						<FontAwesomeIcon icon={faGithub} className="text-mBlue"></FontAwesomeIcon>
-					</a>
-					<a
-						href="https://www.linkedin.com/in/mendesbarreto/"
-						target="_blank"
-						rel="noopener noreferrer"
-						className="flex justify-center items-center w-6 h-6 bg-transparent"
-					>
-						<FontAwesomeIcon icon={faLinkedin} className="text-mBlue"></FontAwesomeIcon>
-					</a>
-					<a
-						href="https://x.com/DougTheDev"
-						target="_blank"
-						rel="noopener noreferrer"
-						className="flex justify-center items-center w-6 h-6 bg-transparent"
-					>
-						<FontAwesomeIcon icon={faTwitter} className="text-mBlue"></FontAwesomeIcon>
-					</a>
-					<a
-						href="https://www.facebook.com/douglasMendesBarreto"
-						target="_blank"
-						rel="noopener noreferrer"
-						className="flex justify-center items-center w-6 h-6 bg-transparent"
-					>
-						<FontAwesomeIcon icon={faFacebook} className="text-mBlue"></FontAwesomeIcon>
-					</a>
-					<a
-						href="https://www.linkedin.com/in/mendesbarreto/"
-						target="_blank"
-						rel="noopener noreferrer"
-						className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mGreen/30 rounded-full shadow-lg hover:bg-mGreen/20 transition-colors"
-					>
-						<FontAwesomeIcon icon={faLinkedin} size="lg" />
-					</a>
-					<a
-						href="https://x.com/DougTheDev"
-						target="_blank"
-						rel="noopener noreferrer"
-						className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mGreen/30 rounded-full shadow-lg hover:bg-mGreen/20 transition-colors"
-					>
-						<FontAwesomeIcon icon={faTwitter} size="lg" />
-					</a>
-					<a
-						href="https://www.facebook.com/douglasMendesBarreto"
-						target="_blank"
-						rel="noopener noreferrer"
-						className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mGreen/30 rounded-full shadow-lg hover:bg-mGreen/20 transition-colors"
-					>
-						<FontAwesomeIcon icon={faFacebook} size="lg" />
-					</a>
-				</div>
-			</div>
+  return (
+    <>
+      {/* Desktop: Fixed left sidebar */}
+      <div className="hidden md:fixed md:flex top-0 left-17 w-5 h-[33.3333vh] bg-background z-50 flex-col items-center justify-center space-betj">
+        <div key="center-line" className="top-0 h-full justify-center">
+          <div className="w-px h-full bg-mTeal"></div>
+        </div>
+        <div className="mt-[5px] w-full flex flex-col items-center space-y-2">
+          <a
+            href="https://github.com/mendesbarreto"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex justify-center items-center w-12 h-12 bg-black border border-mTeal rounded-lg p-3 hover:bg-mTeal/80 transition-all"
+          >
+            <FontAwesomeIcon icon={faGithub} size="lg" className="text-mTeal" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mendesbarreto/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex justify-center items-center w-12 h-12 bg-black border border-mTeal rounded-lg p-3 hover:bg-mTeal/80 transition-all"
+          >
+            <FontAwesomeIcon icon={faLinkedin} size="lg" className="text-mTeal" />
+          </a>
+          <a
+            href="https://x.com/DougTheDev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex justify-center items-center w-12 h-12 bg-black border border-mTeal rounded-lg p-3 hover:bg-mTeal/80 transition-all"
+          >
+            <FontAwesomeIcon icon={faTwitter} size="lg" className="text-mTeal" />
+          </a>
+          <a
+            href="https://www.facebook.com/douglasMendesBarreto"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex justify-center items-center w-12 h-12 bg-black border border-mTeal rounded-lg p-3 hover:bg-mTeal/80 transition-all"
+          >
+            <FontAwesomeIcon icon={faFacebook} size="lg" className="text-mTeal" />
+          </a>
+        </div>
+      </div>
 
-			{/* Mobile: FAB (Floating Action Button) */}
-			<div className="md:hidden fixed bottom-6 right-6 z-50">
-				<div className="flex flex-col-reverse items-end gap-3">
-					{/* Social links */}
-					{isOpen && (
-						<div className="flex flex-col gap-3 animate-in fade-in slide-in-from-bottom-5">
-							<a
-								href="https://github.com/mendesbarreto"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mGreen/30 rounded-full shadow-lg hover:bg-mGreen/20 transition-colors"
-							>
-								<FontAwesomeIcon icon={faGithub} size="lg" className="text-mBlue" />
-							</a>
-							<a
-								href="https://www.linkedin.com/in/mendesbarreto/"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mGreen/30 rounded-full shadow-lg hover:bg-mGreen/20 transition-colors"
-							>
-								<FontAwesomeIcon icon={faLinkedin} size="lg" className="text-mBlue" />
-							</a>
-							<a
-								href="https://x.com/DougTheDev"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mGreen/30 rounded-full shadow-lg hover:bg-mGreen/20 transition-colors"
-							>
-								<FontAwesomeIcon icon={faTwitter} size="lg" className="text-mBlue" />
-							</a>
-							<a
-								href="https://www.facebook.com/douglasMendesBarreto"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mGreen/30 rounded-full shadow-lg hover:bg-mGreen/20 transition-colors"
-							>
-								<FontAwesomeIcon icon={faFacebook} size="lg" className="text-mBlue" />
-							</a>
-							<a
-								href="https://www.linkedin.com/in/mendesbarreto/"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mGreen/30 rounded-full shadow-lg hover:bg-mGreen/20 hover:border-glow transition-colors"
-							>
-								<FontAwesomeIcon icon={faLinkedin} size="lg" />
-							</a>
-							<a
-								href="https://x.com/DougTheDev"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mGreen/30 rounded-full shadow-lg hover:bg-mGreen/20 hover:border-glow transition-colors"
-							>
-								<FontAwesomeIcon icon={faTwitter} size="lg" />
-							</a>
-							<a
-								href="https://www.facebook.com/douglasMendesBarreto"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="flex justify-center items-center w-12 h-12 bg-backgroundLight border border-mGreen/30 rounded-full shadow-lg hover:bg-mGreen/20 hover:border-glow transition-colors"
-							>
-								<FontAwesomeIcon icon={faFacebook} size="lg" />
-							</a>
-						</div>
-					)}
-					
-					{/* FAB button */}
-					<button
-						onClick={() => setIsOpen(!isOpen)}
-						className={`flex justify-center items-center w-14 h-14 bg-backgroundLight rounded-full shadow-lg hover:bg-mTeal transition-all ${
-							isOpen ? "rotate-45" : ""
-						}`}
-						aria-label="Toggle social links"
-					>
-						<FontAwesomeIcon icon={faShare} size="lg" />
-					</button>
-				</div>
-			</div>
-		</>
-	);
+      {/* Mobile: FAB (Floating Action Button) */}
+      <div className="md:hidden fixed bottom-6 right-6 z-50">
+        <div className="flex flex-col-reverse items-end gap-3">
+          {/* Social links */}
+          {isOpen && (
+            <div className="flex flex-col gap-3 animate-in fade-in slide-in-from-bottom-5">
+              <a
+                href="https://github.com/mendesbarreto"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex justify-center items-center w-12 h-12 bg-black border border-mTeal rounded-lg p-3 hover:bg-mTeal/80 transition-all"
+              >
+                <FontAwesomeIcon icon={faGithub} size="lg" className="text-mTeal" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/mendesbarreto/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex justify-center items-center w-12 h-12 bg-black border border-mTeal rounded-lg p-3 hover:bg-mTeal/80 transition-all"
+              >
+                <FontAwesomeIcon icon={faLinkedin} size="lg" className="text-mTeal" />
+              </a>
+              <a
+                href="https://x.com/DougTheDev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex justify-center items-center w-12 h-12 bg-black border border-mTeal rounded-lg p-3 hover:bg-mTeal/80 transition-all"
+              >
+                <FontAwesomeIcon icon={faTwitter} size="lg" className="text-mTeal" />
+              </a>
+              <a
+                href="https://www.facebook.com/douglasMendesBarreto"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex justify-center items-center w-12 h-12 bg-black border border-mTeal rounded-lg p-3 hover:bg-mTeal/80 transition-all"
+              >
+                <FontAwesomeIcon icon={faFacebook} size="lg" className="text-mTeal" />
+              </a>
+            </div>
+          )}
+
+          {/* FAB button */}
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className={`flex justify-center items-center w-14 h-14 bg-black border border-mTeal rounded-lg shadow-lg hover:bg-mTeal/80 transition-all ${isOpen ? "rotate-45" : ""
+              }`}
+            aria-label="Toggle social links"
+          >
+            <FontAwesomeIcon icon={faShare} size="lg" className="text-mTeal" />
+          </button>
+        </div>
+      </div>
+    </>
+  );
 }

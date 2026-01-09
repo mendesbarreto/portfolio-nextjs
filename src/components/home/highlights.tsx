@@ -68,9 +68,6 @@ export function Highlights() {
 
   return (
     <section className="my-12 md:my-16 px-4 md:px-0">
-      <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
-        <span className="text-mTeal">Career</span> Greatest Achievements
-      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {achievements.map((achievement, index) => (
           <div

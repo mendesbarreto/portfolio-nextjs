@@ -28,8 +28,8 @@ export function TerminalHeader() {
 
   return (
     <header className="bg-background border border-mTeal rounded-lg mb-8 overflow-hidden">
-      <div className="p-4 scanlines">
-        <div className="flex items-center justify-center gap-2 mb-3 border-b border-mTeal pb-3">
+      <div className="p-4">
+        <div className="flex items-center justify-between gap-2 mb-3 border-b border-mTeal pb-3 relative">
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-mRed" />
             <div className="w-3 h-3 rounded-full bg-mYellow" />

@@ -2,7 +2,6 @@ import { TerminalHeader } from "@/components/common/terminal-header";
 import { HomeSummary } from "@/components/home/home-summary";
 import { Highlights } from "@/components/home/highlights";
 import { ProjectList } from "@/components/projects/project-list";
-import { QuoteBox } from "@/components/home/quote";
 import { TerminalBlock } from "@/components/common/terminal-block";
 import Head from "next/head";
 
@@ -20,7 +19,6 @@ export default function Home() {
         <TerminalBlock title="achievements" className="mb-8">
           <Highlights />
         </TerminalBlock>
-        <QuoteBox className="flex justify-center p-4 md:p-8"></QuoteBox>
         <TerminalBlock title="projects" className="mb-16">
           <ProjectList className="relative"></ProjectList>
         </TerminalBlock>
