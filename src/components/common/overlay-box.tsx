@@ -148,7 +148,7 @@ export function OverlayBox() {
 					{/* FAB button */}
 					<button
 						onClick={() => setIsOpen(!isOpen)}
-						className={`flex justify-center items-center w-14 h-14 bg-mTeal rounded-full shadow-lg hover:bg-mTeal/80 transition-all ${
+						className={`flex justify-center items-center w-14 h-14 bg-backgroundLight rounded-full shadow-lg hover:bg-mTeal transition-all ${
 							isOpen ? "rotate-45" : ""
 						}`}
 						aria-label="Toggle social links"

@@ -16,7 +16,7 @@ export function HomeSummary({ className }: HomeSummaryProps) {
 
   return (
     <div className={`flex flex-col md:flex-row justify-between items-center gap-8 px-4 md:px-0 ${className}`}>
-      <div id="home-summary" className="w-full md:w-1/2 items-center">
+      <div id="home-summary" className="w-full md:w-1/2">
         <div className="flex-col font-fira-code text-xl md:text-2xl font-bold text-white-600">
           <div>
             <span>Douglas is a </span>
@@ -39,7 +39,7 @@ export function HomeSummary({ className }: HomeSummaryProps) {
         </div>
       </div>
 
-      <div className="flex-initial w-full md:w-[468px] max-w-[468px]">
+      <div className="flex-initial w-full md:w-[468px] max-w-[468px] mb-12">
         <Image
           src="/img-profile.png"
           alt="Icon"
