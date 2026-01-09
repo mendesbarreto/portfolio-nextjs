@@ -20,7 +20,7 @@ export default function Home() {
           <Highlights />
         </TerminalBlock>
         <TerminalBlock title="projects" className="mb-16">
-          <ProjectList className="relative"></ProjectList>
+          <ProjectList className="relative" underConstruction={true} />
         </TerminalBlock>
       </div>
     </div>

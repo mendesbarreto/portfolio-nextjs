@@ -9,14 +9,14 @@ interface TypingTextProps {
 }
 
 export function TypingText({ text, className, speed = 100 }: TypingTextProps) {
-  const [displayText, setDisplayText] = useState("");
+  const [displayText, setDisplayText] = useState(text[0] || "");
 
   useEffect(() => {
-    let index = 0;
+    let i = 0;
     const interval = setInterval(() => {
-      if (index < text.length) {
-        setDisplayText((prev) => prev + text[index]);
-        index++;
+      if (i < text.length) {
+        setDisplayText(text.substring(0, i + 1));
+        i++;
       } else {
         clearInterval(interval);
       }
