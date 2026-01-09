@@ -29,13 +29,18 @@ export function TerminalHeader() {
   return (
     <header className="bg-background border border-mTeal rounded-lg mb-8 overflow-hidden">
       <div className="p-4">
-        <div className="flex items-center justify-between gap-2 mb-3 border-b border-mTeal pb-3 relative">
-          <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 mb-3 border-b border-mTeal pb-3 relative">
+          {/* Left: Window controls (visible on desktop only) */}
+          <div className="flex items-center gap-2 md:flex hidden">
             <div className="w-3 h-3 rounded-full bg-mRed" />
             <div className="w-3 h-3 rounded-full bg-mYellow" />
             <div className="w-3 h-3 rounded-full bg-mTeal" />
           </div>
 
+          {/* Middle: Spacer (grows to fill space) */}
+          <div className="flex-1"></div>
+
+          {/* Right: Navigation (centered) */}
           <nav className="flex gap-2 font-fira-code">
             {tabs.map((tab) => (
               <Link
