@@ -6,7 +6,23 @@ export function Highlights() {
       value: "550%",
       label: "Team Productivity Boost",
       description: "Feature lead time: 13 weeks → 2 weeks",
-      color: "text-mGreen"
+      color: "text-mTeal"
+    },
+    {
+      icon: "⚡",
+      title: "Pipeline Wizard",
+      value: "86%",
+      label: "CI/CD Speed Improvement",
+      description: "Build & deploy: 50min → 7min",
+      color: "text-mTeal"
+    },
+    {
+      icon: "🚢",
+      title: "Shipping Machine",
+      value: "30+",
+      label: "Apps Launched to Production",
+      description: "Mobile, web & games across platforms",
+      color: "text-mTeal"
     },
     {
       icon: "💰",
@@ -17,28 +33,12 @@ export function Highlights() {
       color: "text-mTeal"
     },
     {
-      icon: "⚡",
-      title: "Pipeline Wizard",
-      value: "86%",
-      label: "CI/CD Speed Improvement",
-      description: "Build & deploy: 50min → 7min",
-      color: "text-mGreen"
-    },
-    {
       icon: "💡",
       title: "Team Catalyst",
       value: "Multi-Year",
       label: "Technical Talks Delivered",
       description: "Best practices in coding, testing & QA",
-      color: "text-mYellow"
-    },
-    {
-      icon: "🚢",
-      title: "Shipping Machine",
-      value: "30+",
-      label: "Apps Launched to Production",
-      description: "Mobile, web & games across platforms",
-      color: "text-mGreen"
+      color: "text-mTeal"
     },
     {
       icon: "🏦",
@@ -54,7 +54,7 @@ export function Highlights() {
       value: "COBOL→.NET",
       label: "Modernization Expert",
       description: "Migrated critical legacy systems",
-      color: "text-mGreen"
+      color: "text-mTeal"
     },
     {
       icon: "🏆",
@@ -62,26 +62,26 @@ export function Highlights() {
       value: "TDD/BDD",
       label: "Testing Culture Established",
       description: "Promoted quality practices across teams",
-      color: "text-mYellow"
+      color: "text-mTeal"
     }
   ];
 
   return (
     <section className="my-12 md:my-16 px-4 md:px-0">
       <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
-        <span className="text-mPurple">Career</span> Greatest Achievements
+        <span className="text-mTeal">Career</span> Greatest Achievements
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {achievements.map((achievement, index) => (
           <div
             key={index}
-            className="bg-backgroundLight p-6 rounded-lg border border-mGray/20 hover:border-mGreen hover:border-glow transition-all hover:scale-105 hover:shadow-lg"
+            className="bg-backgroundLight p-6 rounded-lg border border-mGray/20 hover:border-mTeal transition-all hover:scale-105 hover:shadow-lg"
           >
             <div className="text-4xl mb-3">{achievement.icon}</div>
             <div className={`text-lg font-bold ${achievement.color} mb-2`}>
               {achievement.title}
             </div>
-            <div className={`text-2xl md:text-3xl font-bold ${achievement.color} mb-2 matrix-glow`}>
+            <div className={`text-2xl md:text-3xl font-bold ${achievement.color} mb-2`}>
               {achievement.value}
             </div>
             <div className="text-white font-semibold mb-1 text-sm">{achievement.label}</div>

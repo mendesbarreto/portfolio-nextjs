@@ -26,9 +26,9 @@ export function ProjectListItem({
   imageUrl = "https://placehold.co/331x201",
 }: ProjectsProps) {
   return (
-    <div className="outline-1 outline-mGreen hover:border-glow flex flex-col justify-start items-start w-full transition-all">
+    <div className="outline-1 outline-mTeal flex flex-col justify-start items-start w-full transition-all">
       <Image
-        className="w-full h-auto border-b border-mGreen"
+        className="w-full h-auto border-b border-mTeal"
         width={331}
         height={201}
         alt="Project Image"
@@ -39,7 +39,7 @@ export function ProjectListItem({
           <ProjectListItemType key={index} type={t} />
         ))}
       </div>
-      <div className="self-stretch p-4 border-t border-mGreen flex flex-col justify-start items-start gap-4">
+      <div className="self-stretch p-4 border-t border-mTeal flex flex-col justify-start items-start gap-4">
         <div className="self-stretch justify-start text-white text-xl md:text-2xl font-medium font-['Fira_Code']">
           {name}
         </div>
@@ -50,7 +50,7 @@ export function ProjectListItem({
           <div
             data-state="Default"
             data-type="Primary"
-            className="px-4 py-2 outline-1 outline-offset-[-1px] outline-mGreen hover:border-glow flex justify-start items-start gap-2.5"
+            className="px-4 py-2 outline-1 outline-offset-[-1px] outline-mTeal hover:border-mTeal flex justify-start items-start gap-2.5"
           >
             <div className="justify-start text-white text-sm md:text-base font-medium font-['Fira_Code']">
               {"Live <~>"}
@@ -59,9 +59,9 @@ export function ProjectListItem({
           <div
             data-state="Default"
             data-type="Secondary"
-            className="px-4 py-2 outline-1 outline-offset-[-1px] outline-mTeal hover:border-glow flex justify-start items-start gap-2.5"
+            className="px-4 py-2 outline-1 outline-offset-[-1px] outline-mTeal hover:border-mTeal flex justify-start items-start gap-2.5"
           >
-            <div className="justify-start text-mGray text-sm md:text-base font-medium font-['Fira_Code']">
+            <div className="justify-start text-white text-sm md:text-base font-medium font-['Fira_Code']">
               {"Cached >="}
             </div>
           </div>

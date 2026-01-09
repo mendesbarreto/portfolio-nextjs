@@ -115,11 +115,11 @@ export function Experience() {
   return (
     <section className="mb-12 md:mb-16">
       <h2 className="text-2xl font-bold text-white mb-4">
-        <span className="text-mGreen">##</span> Professional Experience
+        <span className="text-mTeal">##</span> Professional Experience
       </h2>
       <div className="space-y-4">
         {jobs.map((job, index) => (
-          <div key={index} className="bg-backgroundLight rounded-lg border border-mGreen/20 overflow-hidden hover:border-glow transition-all">
+          <div key={index} className="bg-backgroundLight rounded-lg border border-mTeal/20 overflow-hidden hover:border-mTeal transition-all">
             <button
               onClick={() => setExpandedJob(expandedJob === index ? null : index)}
               className="w-full p-6 text-left hover:bg-background/50 transition-colors"
@@ -127,7 +127,7 @@ export function Experience() {
               <div className="flex justify-between items-start">
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-white mb-1">{job.title}</h3>
-                  <p className="text-mGreen font-semibold">{job.company}</p>
+                  <p className="text-mTeal font-semibold">{job.company}</p>
                   <p className="text-mGray text-sm mt-1">{job.companyDescription}</p>
                   <div className="flex flex-wrap gap-3 mt-2 text-sm text-mGray">
                     <span>{job.period}</span>
@@ -135,7 +135,7 @@ export function Experience() {
                     {job.location && <span>• {job.location}</span>}
                   </div>
                 </div>
-                <span className={`text-mGreen text-xl transition-transform ${expandedJob === index ? 'rotate-180' : ''}`}>
+                <span className={`text-mTeal text-xl transition-transform ${expandedJob === index ? 'rotate-180' : ''}`}>
                   ▼
                 </span>
               </div>
@@ -146,7 +146,7 @@ export function Experience() {
                 <ul className="space-y-3">
                   {job.highlights.map((highlight, hIndex) => (
                     <li key={hIndex} className="flex items-start">
-                      <span className="text-mGreen mr-3 mt-1">▹</span>
+                      <span className="text-mTeal mr-3 mt-1">▹</span>
                       <span className="text-mGray">{highlight}</span>
                     </li>
                   ))}

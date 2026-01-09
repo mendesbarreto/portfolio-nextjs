@@ -8,28 +8,28 @@
 	--spacing-61: 61px;
 	--spacing-1064: 1064px;
 
-	/* Matrix Theme Colors */
-	--color-background: #000000;
-	--color-background-light: #0a0a0a;
-	--color-backgroundLight: #0a0a0a;
-	--color-m-purple: #00ff41;
-	--color-mPurple: #00ff41;
-	--color-m-red: #4a4a4a;
-	--color-mRed: #4a4a4a;
+	/* Profile Image Theme Colors */
+	--color-background: #050505;
+	--color-background-light: #0b1a20;
+	--color-backgroundLight: #14282f;
+	--color-m-purple: #008f11;
+	--color-mPurple: #008f11;
+	--color-m-red: #2c4a6b;
+	--color-mRed: #2c4a6b;
 	--color-m-green: #008f11;
 	--color-mGreen: #008f11;
 	--color-m-yellow: #39ff14;
 	--color-mYellow: #39ff14;
-	--color-m-blue: #4a4a4a;
-	--color-mBlue: #4a4a4a;
-	--color-m-teal: #006b00;
-	--color-mTeal: #006b00;
+	--color-m-blue: #2b2b2b;
+	--color-mBlue: #2b2b2b;
+	--color-m-teal: #00ffcc;
+	--color-mTeal: #00ffcc;
 	--color-m-gray: #e0e0e0;
 	--color-mGray: #e0e0e0;
 
 	/* Background colors (for bg-* utilities) */
-	--color-primary: #000000;
-	--color-secondary: #0a0a0a;
+	--color-primary: #050505;
+	--color-secondary: #14282f;
 }
 
 @layer base {

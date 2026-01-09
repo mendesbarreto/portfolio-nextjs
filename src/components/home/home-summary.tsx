@@ -20,15 +20,15 @@ export function HomeSummary({ className }: HomeSummaryProps) {
         <div className="flex-col font-fira-code text-xl md:text-2xl font-bold text-white-600">
           <div>
             <span>Douglas is a </span>
-            <span className="text-mGreen">Senior Software Eng. Manager </span>
+            <span className="text-mTeal">Senior Software Eng. Manager </span>
             <span>and </span>
-            <span className="text-mGreen">Full-Stack Developer</span>
+            <span className="text-mTeal">Full-Stack Developer</span>
           </div>
         </div>
         <div className="font-fira-code text-mGray pt-8 leading-relaxed">
-          With <span className="text-mYellow font-semibold">14 years</span> in software engineering,
+          With <span className="text-mTeal font-semibold">14 years</span> in software engineering,
           Douglas leads and mentors high-performing teams that ship quality products.
-          As a <span className="text-mYellow">polyglot technologist</span>, he&apos;s comfortable
+          As a <span className="text-mTeal">polyglot technologist</span>, he&apos;s comfortable
           working across the full stack with various languages and frameworks.
         </div>
         <div className="font-fira-code text-mGray pt-4 leading-relaxed">

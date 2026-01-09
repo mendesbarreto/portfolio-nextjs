@@ -18,7 +18,7 @@ export function ContactInfo() {
       label: "Phone",
       value: "+1 (581) 748 0657",
       href: "tel:+15817480657",
-      color: "text-mGreen"
+      color: "text-mTeal"
     },
     {
       icon: faLinkedin,
@@ -32,14 +32,14 @@ export function ContactInfo() {
       label: "GitHub",
       value: "github.com/mendesbarreto",
       href: "https://github.com/mendesbarreto",
-      color: "text-mGreen"
+      color: "text-mTeal"
     },
     {
       icon: faMapMarkerAlt,
       label: "Location",
       value: "Gatineau, QC - Canada",
       href: null,
-      color: "text-mYellow"
+      color: "text-mTeal"
     }
   ];
 
@@ -52,7 +52,7 @@ export function ContactInfo() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {contacts.map((contact, index) => (
-          <div key={index} className="bg-#003b00 p-6 rounded-lg border border-mGreen/20 hover:border-mGreen hover:border-glow transition-all hover:scale-105">
+          <div key={index} className="bg-backgroundLight p-6 rounded-lg border border-mTeal/20 hover:border-mTeal transition-all hover:scale-105">
             {contact.href ? (
               <a href={contact.href} target={contact.href.startsWith('http') ? '_blank' : undefined} rel="noopener noreferrer" className="block">
                 <div className="flex items-start">
@@ -61,7 +61,7 @@ export function ContactInfo() {
                   </div>
                   <div>
                     <h3 className="text-white font-semibold mb-1">{contact.label}</h3>
-                    <p className="text-mGray hover:text-mGreen transition-colors break-all">{contact.value}</p>
+                    <p className="text-mGray hover:text-mTeal transition-colors break-all">{contact.value}</p>
                   </div>
                 </div>
               </a>
@@ -80,16 +80,16 @@ export function ContactInfo() {
         ))}
       </div>
 
-      <div className="mt-12 bg-#003b00 p-8 rounded-lg border border-mGreen/30">
+      <div className="mt-12 bg-backgroundLight p-8 rounded-lg border border-mTeal/30">
         <h2 className="text-2xl font-bold text-white mb-4">
-          <span className="text-mGreen">##</span> Let&apos;s Connect
+          <span className="text-mTeal">##</span> Let&apos;s Connect
         </h2>
         <p className="text-mGray leading-relaxed mb-4">
-          With 14 years of experience in software engineering, I&apos;m passionate about building high-performing teams
+          With <span className="text-mTeal">14 years</span> of experience in software engineering, I&apos;m passionate about building high-performing teams
           and scalable solutions. Whether you&apos;re looking for technical leadership, consulting, or collaboration on
           innovative projects, I&apos;d love to hear from you.
         </p>
-        <p className="text-mYellow font-semibold">
+        <p className="text-mTeal font-semibold">
           Currently based in Gatineau, QC, Canada 🇨🇦
         </p>
       </div>

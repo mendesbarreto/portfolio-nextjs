@@ -13,13 +13,13 @@ export function ManagementSkills() {
   return (
     <section className="mb-12 md:mb-16">
       <h2 className="text-2xl font-bold text-white mb-4">
-        <span className="text-mGreen">##</span> Management Skills
+        <span className="text-mTeal">##</span> Management Skills
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {skills.map((skill, index) => (
-          <div key={index} className="bg-#003b00 p-4 rounded-lg border border-mGreen/20 hover:border-mGreen hover:border-glow transition-colors">
+          <div key={index} className="bg-backgroundLight p-4 rounded-lg border border-mTeal/20 hover:border-mTeal transition-colors">
             <div className="flex items-start">
-              <span className="text-mGreen mr-3 mt-1">▹</span>
+              <span className="text-mTeal mr-3 mt-1">▹</span>
               <p className="text-mGray text-sm leading-relaxed">{skill}</p>
             </div>
           </div>
