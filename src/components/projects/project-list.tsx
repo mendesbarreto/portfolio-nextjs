@@ -25,7 +25,7 @@ export function ProjectList({ className, underConstruction = false }: ProjectsPr
     {
       name: "Kampi",
       shortDescription: "Intelligent copilot for shrimp farmers using AI and computer vision to replace manual guesswork with data-driven insights. Features three pillars: Pond Vision for biometric monitoring via smartphone photos, Optima for predictive analytics and growth forecasting, and FarmBook for team coordination across the production chain.",
-      types: ["Python", "TypeScript", "NodeJS", "NextJS", "Google Cloud", "Terraform", "Ansible", "C++", "Android", "iOS", "React Native"],
+      types: ["Python", "TypeScript", "Node.js", "Next.js", "Google Cloud", "Terraform", "Ansible", "C++", "Android", "iOS", "React Native"],
       company: "Xpertsea",
       role: "Senior Software Engineering Manager",
       timePeriod: "Oct 2021 – Present",
@@ -40,7 +40,7 @@ export function ProjectList({ className, underConstruction = false }: ProjectsPr
     {
       name: "Social.Mom",
       shortDescription: "Social network platform designed to counter social isolation during motherhood and reinforce the social safety net of families. Enables mothers to connect locally, plan activities, and access community groups and organizations in their area through a bilingual interface.",
-      types: ["iOS", "Android", "Java Springboot", "React"],
+      types: ["iOS", "Android", "Java Spring Boot", "React"],
       company: "Social.mom",
       role: "Senior Native iOS Developer",
       timePeriod: "Oct 2019 – Aug 2021",
@@ -54,7 +54,7 @@ export function ProjectList({ className, underConstruction = false }: ProjectsPr
     {
       name: "Meu Carrefour",
       shortDescription: "All-in-one retail companion and cornerstone of Carrefour Brazil's omnichannel strategy, empowering millions of users to manage loyalty rewards, shop for groceries online, and streamline in-store visits through smart utility tools like barcode scanning and proximity services.",
-      types: ["iOS native", "TypeScript", "NodeJS", "JAVA"],
+      types: ["iOS native", "TypeScript", "Node.js", "Java"],
       company: "Carrefour Brazil",
       role: "Senior iOS Developer",
       timePeriod: "Feb 2016 – Jun 2016",

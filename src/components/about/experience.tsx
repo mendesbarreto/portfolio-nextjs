@@ -30,7 +30,7 @@ export function Experience() {
         "Introduced trunk-based development, reducing gitflow overhead and improving feature lead time",
         "Pioneered AI-powered 1:1 methodology for searchable, data-driven team progress tracking",
         "Re-architected CI/CD pipelines, cutting build and deploy time from 50 minutes to 7 minutes",
-        "Increased team productivity by 550%, reducing average feature lead time from 13 weeks to 2 weeks",
+        "Increased feature delivery velocity by 5x, reducing lead time from 13 weeks to 2 weeks",
         "Implemented Kanban, leading to a 20% reduction in planning time",
         "Introduced engineering standards that improved code quality and reduced bug rates by 23%",
         "Architected cross-platform Computer Vision framework in C++ for native iOS and Android"

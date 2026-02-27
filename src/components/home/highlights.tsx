@@ -3,8 +3,8 @@ export function Highlights() {
     {
       icon: "🚀",
       title: "Speed Master",
-      value: "550%",
-      label: "Team Productivity Boost",
+      value: "5x",
+      label: "Feature Delivery Velocity",
       description: "Feature lead time: 13 weeks → 2 weeks",
       color: "text-mTeal"
     },

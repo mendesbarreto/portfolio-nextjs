@@ -9,7 +9,7 @@ export function Education() {
         <div className="bg-backgroundLight p-6 rounded-lg border border-mTeal/20">
           <h3 className="text-xl font-bold text-white mb-2">Education</h3>
           <p className="text-mTeal font-semibold">Universidade Anhembi Morumbi</p>
-          <p className="text-mGray">Bachelor Degree in Game Design and Development</p>
+          <p className="text-mGray">Bachelor's Degree in Game Design and Development</p>
           <p className="text-mGray text-sm mt-1">2010</p>
         </div>
 

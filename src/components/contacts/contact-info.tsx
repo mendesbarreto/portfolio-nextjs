@@ -1,7 +1,7 @@
 "use client";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faPhone, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faPhone, faMapMarkerAlt, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export function ContactInfo() {
@@ -32,6 +32,13 @@ export function ContactInfo() {
       label: "GitHub",
       value: "github.com/mendesbarreto",
       href: "https://github.com/mendesbarreto",
+      color: "text-mTeal"
+    },
+    {
+      icon: faGlobe,
+      label: "Portfolio",
+      value: "mendesbarreto.gobit.dev",
+      href: "https://mendesbarreto.gobit.dev/",
       color: "text-mTeal"
     },
     {
