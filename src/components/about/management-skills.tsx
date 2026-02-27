@@ -7,7 +7,7 @@ export function ManagementSkills() {
     "Successfully managed complex migration projects, full game development lifecycles, and multi-client deliverables",
     "Established development processes using JIRA/Github Projects, implemented CI/CD pipelines, and promoted TDD/BDD practices",
     "Skilled in managing client relationships, defining requirements, and aligning technical solutions with business objectives",
-    "Delivered technical talks and presentations to engineering teams on best practices"
+    "Delivered technical talks and presentations to engineering teams on best practices in coding, testing, and QA implementation"
   ];
 
   return (

@@ -21,19 +21,23 @@ export function Experience() {
       company: "Xpertsea",
       companyDescription: "Predictive shrimp biomass control with AI delivering sustainable aquaculture solutions",
       size: "51 - 100 employees",
-      period: "Oct 2020 – Present",
+      period: "2020-10 – Present",
       location: "Quebec, Canada",
       highlights: [
         "Led a 9-engineer team in the development and scaling of complex applications",
         "Spearheaded a full-stack migration from AWS to Google Cloud, achieving a 20% reduction in infrastructure costs",
-        "Led platform re-architecture, improving DX and UX to drive the company to product-market fit",
-        "Introduced trunk-based development, reducing gitflow overhead and improving feature lead time",
-        "Pioneered AI-powered 1:1 methodology for searchable, data-driven team progress tracking",
-        "Re-architected CI/CD pipelines, cutting build and deploy time from 50 minutes to 7 minutes",
+        "Led platform re-architecture improving DX and UX, driving product-market fit",
+        "Introduced trunk-based development to the team, reducing gitflow overhead and significantly improving feature lead time",
+        "Pioneered AI-powered 1:1 methodology creating searchable, data-driven records of discussions and goals",
+        "Re-architected CI/CD pipelines, cutting build/deploy time from 50 to 7 minutes",
         "Increased feature delivery velocity by 5x, reducing lead time from 13 weeks to 2 weeks",
-        "Implemented Kanban, leading to a 20% reduction in planning time",
-        "Introduced engineering standards that improved code quality and reduced bug rates by 23%",
-        "Architected cross-platform Computer Vision framework in C++ for native iOS and Android"
+        "Implemented Kanban, reducing planning time by 20% with continuous development flow",
+        "Designed engineering-product workflow reducing communication friction and meetings",
+        "Oversaw the successful launch of 6 major projects",
+        "Introduced engineering standards reducing bug rates by 23% and streamlining async communication",
+        "Managed all people functions, including performance reviews, mentorship, and conflict resolution",
+        "Contributed hands-on code to backend (Python, TS) and frontend (Next.js), accelerating key initiatives",
+        "Built cross-platform C++ Computer Vision framework for native iOS and Android"
       ]
     },
     {
@@ -44,11 +48,11 @@ export function Experience() {
       period: "Oct 2019 – Oct 2020",
       location: "",
       highlights: [
-        "Engineered and maintained high-traffic iOS application",
-        "Led major re-architecture of native codebase, cutting maintenance overhead by 20%",
-        "Authored automation scripts eliminating hundreds of hours of manual tasks",
-        "Established formal testing culture with E2E and unit testing",
-        "Mentored engineers on software design, SOLID principles, and modern design patterns"
+        "Engineered and maintained a high-traffic iOS application, driving the migration of key features from Objective-C to Swift",
+        "Led a major re-architecture of the native codebase, cutting maintenance overhead and new feature development time by 20%",
+        "Authored automation scripts that eliminated hundreds of hours of manual, repetitive tasks for the development team",
+        "Established a formal testing culture by introducing end-to-end (E2E) and unit testing, significantly improving application reliability",
+        "Mentored engineers on software design, promoting the adoption of SOLID principles and modern design patterns"
       ]
     },
     {
@@ -56,14 +60,14 @@ export function Experience() {
       company: "Levio",
       companyDescription: "Tech Consulting",
       size: "1K - 5K employees",
-      period: "Jul 2018 - Oct 2019",
+      period: "Jul 2018 – Oct 2019",
       location: "",
       highlights: [
-        "Engineered scalable, high-availability backend services using .NET C#",
-        "Executed complex legacy modernization projects, migrating from COBOL to .NET",
-        "Led project to migrate customers from legacy VCS to Git",
-        "Acted as key technical consultant across cross-functional teams",
-        "Contributed to optimization and automation of CI pipelines"
+        "Engineered and maintained scalable, high-availability backend services for multiple clients using .NET C#",
+        "Executed complex legacy modernization projects, successfully migrating critical client systems from COBOL to modern .NET platforms",
+        "Led a project to migrate customers from legacy version control systems to Git, modernizing their source code management practices",
+        "Acted as a key technical consultant, collaborating with cross-functional teams to define requirements and deliver robust solutions",
+        "Contributed to the optimization and automation of continuous integration (CI) pipelines to improve build and deployment efficiency"
       ]
     },
     {
@@ -74,11 +78,11 @@ export function Experience() {
       period: "Jul 2015 – Aug 2018",
       location: "",
       highlights: [
-        "Progressed from Developer to Senior Engineer",
-        "Developed 3 mobile banking applications and 4 e-commerce apps",
-        "Architected white-label e-commerce mobile platform",
-        "Delivered technical talks on best practices in coding, testing, and QA",
-        "Designed and implemented robust CI/CD pipelines (Jenkins, Bitrise, TravisCI)"
+        "Progressed from Developer to Senior Engineer, leading the architecture and development of native mobile applications for multiple clients",
+        "Developed 3 mobile banking applications and 4 e-commerce apps, delivering high-quality financial and retail solutions",
+        "Architected and developed a \"white-label\" e-commerce mobile platform, enabling the rapid deployment of customized storefronts from a single codebase",
+        "Delivered multiple technical talks to engineering teams on best practices in coding, testing, and QA implementation",
+        "Designed and implemented robust CI/CD pipelines (Jenkins, Bitrise, TravisCI) and promoted TDD/BDD practices (XCTest, Kif)"
       ]
     },
     {
@@ -89,11 +93,11 @@ export function Experience() {
       period: "Aug 2010 – Apr 2015",
       location: "",
       highlights: [
-        "Progressed from Game Programmer to Lead",
-        "Led end-to-end development of cross-platform games (iOS, Android, Windows)",
-        "Architected backend services for MMO games using SmartFoxServer (Java/MySQL)",
-        "Designed reusable Unity3D framework and custom engine tools",
-        "Implemented JIRA to establish team's development process"
+        "Progressed from Programmer to Lead, managing full game development lifecycle and team leadership",
+        "Led the end-to-end development of cross-platform games (iOS, Android, Windows) using C# and Unity3D",
+        "Architected and built critical backend services for MMO games, including login systems and room controllers, using SmartFoxServer (Java/MySQL)",
+        "Designed and developed a reusable Unity3D framework and custom engine tools, significantly increasing team productivity",
+        "Implemented JIRA to manage development process"
       ]
     },
     {
@@ -104,10 +108,9 @@ export function Experience() {
       period: "Apr 2009 – Feb 2010",
       location: "",
       highlights: [
-        "Developed enterprise web applications using J2EE stack (JSP, JSF)",
-        "Managed client data lifecycle and database design (MySQL)",
-        "Built custom reports with JasperReport",
-        "Engineered data parsing scripts for diverse formats (SMS, XML, CSV)"
+        "Developed and maintained enterprise web applications using the J2EE stack (JSP, JSF) and SOAP web services",
+        "Managed the client data lifecycle, including database design (MySQL) and building custom reports with JasperReport",
+        "Engineered data parsing scripts to process and manipulate diverse formats (SMS, XML, CSV)"
       ]
     }
   ];

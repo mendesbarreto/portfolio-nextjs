@@ -3,7 +3,7 @@
   <h1 style="margin: 0 0 5px 0;">DOUGLAS MENDES BARRETO</h1>
   <h3 style="margin: 0;">Senior Software Engineering Manager</h3>
   <p>
-    +1 (581) 748 0657 • mendes-barreto@live.com • <a href="https://www.linkedin.com/in/mendesbarreto">LinkedIn</a> • <a href="https://github.com/mendesbarreto">GitHub</a> • <a href="https://mendesbarreto.gobit.dev/">Portfolio</a> • Gatineau, QC - Canada
+    +1 (581) 748 0657 • mendes-barreto@live.com • <a href="https://www.linkedin.com/in/mendesbarreto">in/mendesbarreto</a> • Gatineau, QC - Canada
   </p>
 </div>
 
@@ -163,13 +163,11 @@ Bachelor's Degree in Game Design and Development - 2010
 
 ## Main Projects
 
-**Kampi**
-
-Senior Software Engineering Manager • Xpertsea • Oct 2021 – Present
+**Kampi (Xpertsea)**
 
 Intelligent copilot for shrimp farmers using AI and computer vision to replace manual guesswork with data-driven insights. Features three pillars: Pond Vision for biometric monitoring via smartphone photos, Optima for predictive analytics and growth forecasting, and FarmBook for team coordination across the production chain.
 
-**Tech Stack:** Python, TypeScript, Node.js, Next.js, Google Cloud, Terraform, Ansible, C++, Android, iOS, React Native  
+**Tech Stack:** Python, TypeScript/JS, MongoDB, MySQL, Node.js, Bun, Next.js, Google Cloud, Terraform, Ansible, C++, Android, iOS, React Native + Native Development  
 **Link:** <https://bekampi.com/>
 
 - Led cross-functional team in development of AI-powered platform with three product pillars
@@ -181,11 +179,9 @@ Intelligent copilot for shrimp farmers using AI and computer vision to replace m
 
 **Social.Mom**
 
-Senior Native iOS Developer • Social.mom • Oct 2019 – Aug 2021
-
 Social network platform designed to counter social isolation during motherhood and reinforce the social safety net of families. Enables mothers to connect locally, plan activities, and access community groups and organizations in their area through a bilingual interface.
 
-**Tech Stack:** iOS, Android, Java Spring Boot, React  
+**Tech Stack:** iOS native, Android native, Java Spring Boot, React  
 **Link:** <https://social.mom/en>
 
 - Engineered and maintained high-traffic iOS application with bilingual support (English/French)
@@ -195,8 +191,6 @@ Social network platform designed to counter social isolation during motherhood a
 ---
 
 **Meu Carrefour**
-
-Senior iOS Developer • Carrefour Brazil • Feb 2016 – Jun 2016
 
 All-in-one retail companion and cornerstone of Carrefour Brazil's omnichannel strategy, empowering millions of users to manage loyalty rewards, shop for groceries online, and streamline in-store visits through smart utility tools like barcode scanning and proximity services.
 
@@ -208,9 +202,7 @@ All-in-one retail companion and cornerstone of Carrefour Brazil's omnichannel st
 
 ---
 
-**Itaú Unibanco**
-
-Windows Phone and iOS Developer • Itaú Unibanco • July 2015 – Jan 2016
+**Itaú Unibanco Mobile Banking**
 
 Mobile banking application for one of Brazil's largest financial institutions, providing users with secure access to core banking services including account management and financial transactions.
 
@@ -224,11 +216,9 @@ Mobile banking application for one of Brazil's largest financial institutions, p
 
 **Mundo do Sítio**
 
-Lead Game Programmer / Full Stack • Editora Globo • Aug 2010 – Apr 2015
-
 Persistent, multi-user virtual world designed to integrate pedagogical goals with immersive gameplay as a digital extension of the Sítio do Picapau Amarelo IP. Featured complex economy, social interactions, and library of educational mini-games for millions of Brazilian students.
 
-**Tech Stack:** Unity 3D, Flash ActionScript, Java, SmartFox Server, HTML5/JS  
+**Tech Stack:** Unity 3D, Flash ActionScript (SWC), Java, SmartFox Server, HTML5/JS  
 
 - Engineered full-stack architecture handling high-concurrency traffic with low-latency communication
 - Developed interactive gameplay mechanics and real-time state synchronization for 30+ educational mini-games

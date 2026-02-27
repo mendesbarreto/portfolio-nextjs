@@ -19,20 +19,22 @@ export function HomeSummary({ className }: HomeSummaryProps) {
       <div id="home-summary" className="w-full md:w-1/2">
         <div className="flex-col font-fira-code text-xl md:text-2xl font-bold text-white-600">
           <div>
-            <span>Douglas is a </span>
-            <span className="text-mTeal">Senior Software Eng. Manager </span>
-            <span>and </span>
-            <span className="text-mTeal">Full-Stack Developer</span>
+            <span>I&apos;m a </span>
+            <span className="text-mTeal">Senior Software Engineering Manager</span>
           </div>
         </div>
         <div className="font-fira-code text-mGray pt-8 leading-relaxed">
-          With <span className="text-mTeal font-semibold">14 years</span> in software engineering,
-          Douglas leads and mentors high-performing teams that ship quality products.
-          As a <span className="text-mTeal">polyglot technologist</span>, he&apos;s comfortable
-          working across the full stack with various languages and frameworks.
+          With <span className="text-mTeal font-semibold">14 years</span> in software engineering, I&apos;ve worked across the full stack,
+          leading and mentoring teams that ship quality products. My focus is on delivering what clients actually need
+          by collaborating closely with product and design and ruthlessly trimming down processes. This means practical
+          agile, a strong focus on automation, and a culture of high quality.
         </div>
         <div className="font-fira-code text-mGray pt-4 leading-relaxed">
-          His focus: practical agile, automation, and building scalable solutions that actually work.
+          I stay hands-on by architecting systems, managing migrations, and consulting. This keeps my skills sharp
+          and helps me understand my team&apos;s challenges.
+        </div>
+        <div className="font-fira-code text-mTeal pt-4 leading-relaxed font-semibold">
+          My goal is simple: build high-performing teams and scalable solutions that actually work.
         </div>
         <div className="pt-8 flex gap-4">
           <TitleButton onClick={handleClick} title="contact-me"></TitleButton>

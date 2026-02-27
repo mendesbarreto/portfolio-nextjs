@@ -2,7 +2,7 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone, faMapMarkerAlt, faGlobe } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export function ContactInfo() {
   const contacts = [
@@ -25,13 +25,6 @@ export function ContactInfo() {
       label: "LinkedIn",
       value: "linkedin.com/in/mendesbarreto",
       href: "https://www.linkedin.com/in/mendesbarreto",
-      color: "text-mTeal"
-    },
-    {
-      icon: faGithub,
-      label: "GitHub",
-      value: "github.com/mendesbarreto",
-      href: "https://github.com/mendesbarreto",
       color: "text-mTeal"
     },
     {
@@ -97,7 +90,7 @@ export function ContactInfo() {
           innovative projects, I&apos;d love to hear from you.
         </p>
         <p className="text-mTeal font-semibold">
-          Currently based in Gatineau, QC, Canada 🇨🇦
+          Currently based in Gatineau, QC, Canada
         </p>
       </div>
     </section>

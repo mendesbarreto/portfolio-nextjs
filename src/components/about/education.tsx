@@ -26,7 +26,7 @@ export function Education() {
             </div>
             <div className="flex justify-between items-center">
               <span className="text-mGray">French</span>
-              <span className="text-mTeal font-semibold">Professional Working</span>
+              <span className="text-mTeal font-semibold">Professional Working Proficiency</span>
             </div>
           </div>
         </div>

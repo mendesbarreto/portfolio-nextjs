@@ -2,15 +2,28 @@ export function TechSkills() {
   const skillCategories = [
     {
       title: "Languages & Frameworks",
-      skills: ["Python", "JavaScript/TypeScript", "Go", "C++", "C#", "Ruby", "Swift", "Objective-C", "Node.js", "Next.js", "React Native"]
+      skills: [
+        "Python",
+        "JavaScript/TypeScript",
+        "Go",
+        "C++",
+        "C#",
+        "Ruby",
+        "Swift",
+        "Objective-C",
+        "Node.js",
+        "Next.js",
+        "React Native",
+        "Native iOS/Android Development"
+      ]
     },
     {
       title: "Architecture & APIs",
-      skills: ["GraphQL", "RESTful APIs", "Microservices", "Event-Driven Systems", "Design Patterns", "SOLID Principles"]
+      skills: ["GraphQL", "Restful APIs", "Microservices Architecture", "Event-Driven Systems", "Design Patterns", "SOLID Principles"]
     },
     {
       title: "DevOps & Infrastructure",
-      skills: ["Docker", "Kubernetes", "CI/CD Pipelines", "Jenkins", "GitHub Actions", "AWS", "Google Cloud"]
+      skills: ["Docker", "Kubernetes", "CI/CD Pipelines", "Jenkins", "GitHub Actions"]
     },
     {
       title: "Databases",

@@ -25,7 +25,22 @@ export function ProjectList({ className, underConstruction = false }: ProjectsPr
     {
       name: "Kampi",
       shortDescription: "Intelligent copilot for shrimp farmers using AI and computer vision to replace manual guesswork with data-driven insights. Features three pillars: Pond Vision for biometric monitoring via smartphone photos, Optima for predictive analytics and growth forecasting, and FarmBook for team coordination across the production chain.",
-      types: ["Python", "TypeScript", "Node.js", "Next.js", "Google Cloud", "Terraform", "Ansible", "C++", "Android", "iOS", "React Native"],
+      types: [
+        "Python",
+        "TypeScript/JS",
+        "MongoDB",
+        "MySQL",
+        "Node.js",
+        "Bun",
+        "Next.js",
+        "Google Cloud",
+        "Terraform",
+        "Ansible",
+        "C++",
+        "Android",
+        "iOS",
+        "React Native + Native Development"
+      ],
       company: "Xpertsea",
       role: "Senior Software Engineering Manager",
       timePeriod: "Oct 2021 – Present",
@@ -40,7 +55,7 @@ export function ProjectList({ className, underConstruction = false }: ProjectsPr
     {
       name: "Social.Mom",
       shortDescription: "Social network platform designed to counter social isolation during motherhood and reinforce the social safety net of families. Enables mothers to connect locally, plan activities, and access community groups and organizations in their area through a bilingual interface.",
-      types: ["iOS", "Android", "Java Spring Boot", "React"],
+      types: ["iOS native", "Android native", "Java Spring Boot", "React"],
       company: "Social.mom",
       role: "Senior Native iOS Developer",
       timePeriod: "Oct 2019 – Aug 2021",
@@ -65,7 +80,7 @@ export function ProjectList({ className, underConstruction = false }: ProjectsPr
       ]
     },
     {
-      name: "Itaú Unibanco",
+      name: "Itaú Unibanco Mobile Banking",
       shortDescription: "Mobile banking application for one of Brazil's largest financial institutions, providing users with secure access to core banking services including account management and financial transactions.",
       types: ["Windows Phone", "iOS", ".NET"],
       company: "Itaú Unibanco",
@@ -80,7 +95,7 @@ export function ProjectList({ className, underConstruction = false }: ProjectsPr
     {
       name: "Mundo do Sítio",
       shortDescription: "Persistent, multi-user virtual world designed to integrate pedagogical goals with immersive gameplay as a digital extension of the Sítio do Picapau Amarelo IP. Featured complex economy, social interactions, and library of educational mini-games for millions of Brazilian students.",
-      types: ["Unity 3D", "Flash ActionScript", "Java", "SmartFox Server", "HTML5/JS"],
+      types: ["Unity 3D", "Flash ActionScript (SWC)", "Java", "SmartFox Server", "HTML5/JS"],
       company: "Editora Globo",
       role: "Lead Game Programmer / Full Stack",
       timePeriod: "Aug 2010 – Apr 2015",
